@@ -4,6 +4,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-family: Helvetica, Arial, sans-serif;
   background-color: rgb(246, 241, 235);
+  padding: 0;
+  margin: 0;
 }
 
 .fa-square {
@@ -11,9 +13,22 @@ body {
   font-size: 1rem;
 }
 
+.navbar-brand {
+  /* background-color: green; */
+  width: 32%;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.brand-role {
+  /* background-color: yellow; */
+  align-items: flex-end;
+}
+
 #brand {
   font-weight: 900;
   font-size: 2rem;
+  margin: 0 5px;
 }
 #designation {
   color: rgb(168, 158, 158);
@@ -139,4 +154,6 @@ hr {
 footer {
   text-align: center;
   margin-top: 35px;
+  background-color: grey;
+  margin-bottom: 0;
 }
