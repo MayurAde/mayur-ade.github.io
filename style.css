@@ -175,15 +175,18 @@ footer {
 .info {
   box-sizing: border-box;
   background-color: aliceblue;
-  width: 700px;
-  height: 300px;
+
+  max-width: 800px;
+  /* max-width: 90%; */
+  /* height: 300px; */
   margin: 15px;
   display: flex;
   flex-direction: column;
   /* align-items: center; */
   /* justify-content: center; */
   /* box-shadow: 0 5px 15px 5px rgb(192, 190, 190); */
-  padding: 25px;
+  padding: 60px;
+  /* padding-bottom: 40px; */
 }
 
 .date h4 {
@@ -193,13 +196,67 @@ footer {
 
 .job-desc {
   /* display: flex; */
+  /* margin: 25px 0; */
 }
 .job-desc h3 {
+  color: rgb(68, 66, 66);
+  font-weight: dark;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+.job-desc h4 {
   color: black;
   font-weight: lighter;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
+  margin: 10px 0;
+}
+.desc_block {
+  /* padding: 5%; */
+  padding-left: 0;
 }
 
 .date {
   align-self: flex-start;
+}
+
+.temp {
+  background-color: red;
+  min-width: 30%;
+  /* height: 150px; */
+}
+
+#footer {
+  background-color: red;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+}
+
+li {
+  /* list-style-type: none; */
+}
+
+.custom-li li::marker {
+  content: "> ";
+  font-weight: bolder;
+  color: rgb(39, 39, 141);
+  font-size: large;
+  text-align: justify;
+}
+
+.square-bullet {
+  color: blue;
+}
+
+#skills {
+  /* background-color: rgb(224, 216, 216); */
+  padding: 20px;
+  padding-left: 0;
+  display: flex;
+  /* align-items: flex-end; */
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.skill-label {
+  margin: 10px 20px;
 }
